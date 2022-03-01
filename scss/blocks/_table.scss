@@ -1,0 +1,60 @@
+.table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    &__head {
+     border: 1px solid black;
+    }
+    &__tr__one {
+        padding: {
+            top: 15px;
+            bottom: 15px;
+            right: 15px;
+            left: 15px;
+        }
+        border: 1px solid black;
+    }
+    &__th__one {
+        padding: {
+            top: 15px;
+            bottom: 15px;
+            right: 15px;
+            left: 15px;
+        }
+        border: 1px solid black; 
+    }
+    &__body__td {
+        padding: {
+            top: 15px;
+            bottom: 15px;
+            right: 15px;
+            left: 15px;
+        }
+        border: 1px solid black; 
+    }
+    &__body__bottom__td {
+        padding: {
+            top: 10px;
+            bottom: 10px;
+            left: 75px;
+        }
+        border: 1px solid black; 
+    }
+    &__body__bottom__td__one {
+        padding: {
+            top: 10px;
+            bottom: 10px;
+            left: 170px;
+            right: 30px;
+        }
+        border: 1px solid black; 
+    }
+    &__body__number {
+        padding: {
+            top: 10px;
+            bottom: 10px;
+            left: 30px;
+            right: 30px;
+        }
+        border: 1px solid black; 
+    }
+}
